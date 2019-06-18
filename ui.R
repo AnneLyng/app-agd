@@ -10,7 +10,7 @@
 library(shiny)
 
 ui <- fluidPage(
-    titlePanel("Prototype på AGD app"),
-    actionButton("tekstKnap", "Tryk her"),
-    verbatimTextOutput("tekst")
+    titlePanel("Prototype på AGD app"), #titel på siden
+    actionButton("tekstKnap", "Tryk her"), #knappen
+    verbatimTextOutput("tekst") # tekst output hørende til knappen
     )

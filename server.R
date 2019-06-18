@@ -10,8 +10,8 @@
 server <- function(input, output, session){
 ### the server function contains all output created for the app
 
-    observeEvent(input$tekstKnap, {
-        output$tekst <- renderText({"Hej Jørgen"})
+    observeEvent(input$tekstKnap, { #ObserveEvent reagerer på knap-trykket
+        output$tekst <- renderText({"Hej Jørgen"}) # hvorefter output (her tekst) - printes
     })
 
 }
